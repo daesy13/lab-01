@@ -1,1 +1,7 @@
- 
+div{
+  float: left;
+}
+
+div:nth-child(n+5):nth-child(-n+8){
+  width: 50%;
+}
